@@ -31,5 +31,4 @@ const tuitController =  (app) => {
     app.put('/api/tuits/:tid', updateTuit);
     app.delete('/api/tuits/:tid', deleteTuit);
 }
-
 export default tuitController;
